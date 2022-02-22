@@ -1,6 +1,8 @@
-# Web App built in Next.js & Prismic CMS
+# Web App built in Next.JS
 
-> [Next.js](https://nextjs.org/) & content managed in [Prismic](https://prismic.io) and components built with Slice Machine
+> [Next.js](https://nextjs.org/) 
+
+TO DO: content managed in [Prismic](https://prismic.io) and components built with Slice Machine
 
 ## Setup
 Used NPM, therefore, `npm install`
