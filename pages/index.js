@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>VPN Best Landingpage </title>
+        <title>Fundatia Sinca </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
