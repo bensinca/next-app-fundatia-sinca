@@ -10,7 +10,7 @@ const Feature = () => {
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">
-            <Image
+            <img
               src="/assets/Illustration2.png"
               alt="VPN Illustrasi"
               layout="responsive"
