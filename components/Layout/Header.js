@@ -77,7 +77,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Parteneri
+              Implica-te
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -95,16 +95,16 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Noutati
+              Parteneri
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <Link href="/">
+            <Link href="mailto:contact@sinca.org">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Contact
               </a>
             </Link>
-            <ButtonOutline>Doneaza</ButtonOutline>
+            <ButtonOutline to="https://www.paypal.com/donate/?hosted_button_id=BM4MVCWJWRLEC&fbclid=IwAR3QftDMpAd1Xyaqw4XrWzwPB_4UYE9eXOleu_Go_45veaZwrCsADQQq0hg">Doneaza</ButtonOutline>
           </div>
         </nav>
       </header>

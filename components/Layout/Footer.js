@@ -26,13 +26,13 @@ const Footer = () => {
           <p className="text-gray-400">©2021 Fundatia Sinca</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Ne gasiti:</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Ne gasiti pe:</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Pe Str. Primăriei,
+            Str. Sovata,
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              nr.43, Ap.8, 
+            nr.31, ap.3,
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
              Oradea, Bihor

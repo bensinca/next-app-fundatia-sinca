@@ -123,7 +123,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-full my-16">
+        <div className="flex flex-col w-full my-16" id="feature">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
             Unde suntem activi
           </h3>
@@ -133,10 +133,31 @@ const Pricing = () => {
           <div className="py-12 w-full px-8 mt-16">
             <img src="/assets/bihor.png" className="w-full h-auto" />
           </div>
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
+            Activitatea noastra cu refugiatii din Ucraina
+          </h3>
+          <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
+            Din fericire sau din păcate, astăzi am trecut pragul de 1000 🇺🇦refugiați ucraineni pe care i-am ajutat să rămână o perioadă la noi.
+          </p>
+          <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
+            300 locuri de cazare 
+          </p>
+          <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
+            4 interpreți voluntari;
+          </p>
+          <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
+            8 voluntari activi in punctele de trecere a frontierei care au dăruit apă, cafea, ceai, sandwich-uri, etc.
+            </p>
+          <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
+            2 medici voluntari și 1 asistentă medicală care au efectuat trierea și diagnosticarea problemelor medicale;
+            </p>
+          <p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12">
+            3 psihologi voluntari care au desfășurat consiliere și asistență psihologică pentru un număr foarte mare de ore în special pentru mame;
+          </p>
         </div>
         <div className="flex flex-col w-full my-16" id="testimoni">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-            Ce spun partenerii nostrii despre noi{" "}
+            Partenerii nostrii
           </h3>
           <p className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12">
             Apreciem mult fiecare partener ce ajuta misiunea noastra, de aceea parerea partenerilor nostrii este importanta
@@ -152,7 +173,7 @@ const Pricing = () => {
                 </h5>
                 <p>Daca vrei sa aflii mai multe</p>
               </div>
-              <ButtonPrimary>Contacteaza-ne</ButtonPrimary>
+              <ButtonPrimary to="mailto:contact@sinca.org">Contacteaza-ne</ButtonPrimary>
             </div>
             <div
               className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"

@@ -5,15 +5,16 @@ const Feature = () => {
   return (
     <div
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
-      id="feature"
+      id="about"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12 ">
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">
             <img
-              src="/assets/Illustration2.png"
-              alt="VPN Illustrasi"
+              src="/assets/about.jpg"
+              alt="Fundatia Sinca"
               layout="responsive"
+              class="rounded-lg"
               quality={100}
               height={414}
               width={508}

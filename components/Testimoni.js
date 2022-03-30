@@ -10,41 +10,32 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "Beni Sinca",
-      image: "/assets/people-3.png",
-      city: "Newcastle upon Tyne",
-      country: "England",
+      name: "Autonom Romania",
+      image: "",
+      city: "",
+      country: "",
       rating: "4.5",
       testimoni:
-        "Wow... Working with these people has changed my life and the fact that I helped changing other's people lives is a blessing.",
+        "În vremuri grele, pline de nesiguranță, ne bucurăm că încă putem găsi persoane care ne susțin si ne ajută. @autonom.romania vă mulțumim pentru sprijinul pe care îl oferiți zilnic.",
     },
     {
-      name: "Bianca Sinca",
-      image: "/assets/people-2.png",
-      city: "Oradea",
-      country: "Romania",
+      name: "Autonom Romania",
+      image: "",
+      city: "",
+      country: "",
       rating: "4.5",
       testimoni:
-        "Cea mai buna investitie pe care am facut-o cu acesti oameni. Este foarte bine organizata si eficienta.",
+        "În vremuri grele, pline de nesiguranță, ne bucurăm că încă putem găsi persoane care ne susțin si ne ajută. @autonom.romania vă mulțumim pentru sprijinul pe care îl oferiți zilnic.",
     },
     {
-      name: "Beni Sinca",
-      image: "/assets/people-3.png",
-      city: "Newcastle upon Tyne",
-      country: "England",
+      name: "Autonom Romania",
+      image: "",
+      city: "",
+      country: "",
       rating: "4.5",
       testimoni:
-        "Wow... Working with these people has changed my life and the fact that I helped changing other's people lives is a blessing.",
-    },
-    {
-      name: "Bianca Sinca",
-      image: "/assets/people-2.png",
-      city: "Oradea",
-      country: "Romania",
-      rating: "4.5",
-      testimoni:
-        "Cea mai buna investitie pe care am facut-o cu acesti oameni. Este foarte bine organizata si eficienta.",
-    },
+        "În vremuri grele, pline de nesiguranță, ne bucurăm că încă putem găsi persoane care ne susțin si ne ajută. @autonom.romania vă mulțumim pentru sprijinul pe care îl oferiți zilnic.",
+    }
   ],
 }) => {
   const settings = {
@@ -94,20 +85,32 @@ const Testimoni = ({
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1">
-                  <img
-                    src={listTestimonis.image}
-                    height={50}
-                    width={50}
-                    alt="Icon People"
-                    classname="w-[50] h-[50] rounded-full"
-                  />
+                  {
+                    listTestimonis.image ? (
+                      <img
+                      src={listTestimonis.image}
+                      height={50}
+                      width={50}
+                      alt="Icon People"
+                      classname="w-[50] h-[50] rounded-full"
+                    />
+                    ) : (
+                      ''
+                    )
+                  }
+            
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">
                       {listTestimonis.name}
                     </p>
-                    <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
-                    </p>
+                    {
+                      listTestimonis.city ? (
+                        <p className="text-sm text-black-500 capitalize">
+                        {listTestimonis.city},{listTestimonis.country}
+                      </p>
+                      ) : ( '' )
+                    } 
+             
                   </div>
                 </div>
               </div>
