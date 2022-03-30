@@ -4,33 +4,33 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 const Hero = ({
   listUser = [
     {
-      name: "Copii Educati",
-      number: "390",
+      name: "de refugiati ajutati",
+      number: "1000+",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locatii",
-      number: "5",
+      name: "Locauri de cazare refugiatilor",
+      number: "300+",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Evenimente",
+      name: "Evenimente de educatie pentru copii",
       number: "50",
       icon: "/assets/Icon/stars.svg",
     },
   ],
 }) => {
   return (
-    <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="about">
+    <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto">
       <div className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16 ">
         <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Vrem viitorul sa fie curios, educat si <strong>inteligent</strong>.
+            Ajuta un refugiat din <strong>Ucraina</strong>.
           </h1>
           <p className="text-black-500 mt-4 mb-6">
-            Activitatea noastra, urmareste valorificarea capitalului uman prin descoperirea, antrenarea si promovarea inteligentei si a excelentei.
+            Am ajutat peste 1000 de persoane din Ucraina in urma razboiului. Acum, trebuie sa ne asiguram ca ii ajutam in continuare.
           </p>
-          <ButtonPrimary>Implica-te</ButtonPrimary>
+          <ButtonPrimary to="https://www.paypal.com/donate/?hosted_button_id=BM4MVCWJWRLEC&fbclid=IwAR3QftDMpAd1Xyaqw4XrWzwPB_4UYE9eXOleu_Go_45veaZwrCsADQQq0hg">Doneaza</ButtonPrimary>
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">
