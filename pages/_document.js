@@ -17,7 +17,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Landingpage VPN LaslesVPN Best VPN For Privacy, Country and Cheapest"
+            content="Fundatia Șinca este o organizatie non-guvernamentala, infiintata in anul 1997"
           />
         </Head>
         <body>
