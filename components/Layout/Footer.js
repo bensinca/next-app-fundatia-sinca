@@ -14,16 +14,22 @@ const Footer = () => {
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
+              <a href="https://www.facebook.com/fundatiasinca">
+                <Facebook className="h-6 w-6" />
+              </a>
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
+              <a href="https://twitter.com/FundatiaSinca">
+                <Twitter className="h-6 w-6" />
+              </a>
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Instagram className="h-6 w-6" />
+              <a href="https://www.instagram.com/fundatia.sinca/">
+                <Instagram className="h-6 w-6" />
+              </a>
             </div>
           </div>
-          <p className="text-gray-400">©2021 Fundatia Sinca</p>
+          <p className="text-gray-400">©2022 Fundatia Sinca</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Ne gasiti pe:</p>
