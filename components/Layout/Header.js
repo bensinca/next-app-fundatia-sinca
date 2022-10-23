@@ -22,7 +22,14 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <h1 className="h-8 w-auto font-medium text-black-600 text-2xl">Fundatia Sinca</h1>
+            <img
+                src="/assets/logo.jpeg"
+                alt="Fundatia Sinca"
+                quality={100}
+                width={100}
+                height={100}
+                layout="responsive"
+              />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -41,7 +48,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              Cine Suntem
+              Despre Noi
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -60,24 +67,6 @@ const Header = () => {
               }
             >
               Proiecte
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="pricing"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("pricing");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "pricing"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
-              }
-            >
-              Implica-te
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -104,7 +93,7 @@ const Header = () => {
                   Contact
               </a>
             </Link>
-            <ButtonOutline to="https://www.paypal.com/donate/?hosted_button_id=BM4MVCWJWRLEC&fbclid=IwAR3QftDMpAd1Xyaqw4XrWzwPB_4UYE9eXOleu_Go_45veaZwrCsADQQq0hg">Doneaza</ButtonOutline>
+            <ButtonOutline to="https://sinca.shopia.ro/#produs_27159">Doneaza</ButtonOutline>
           </div>
         </nav>
       </header>
