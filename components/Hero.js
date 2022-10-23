@@ -30,7 +30,7 @@ const Hero = ({
           <p className="text-black-500 mt-4 mb-6">
             Am ajutat peste 1000 de persoane din Ucraina in urma razboiului. Acum, trebuie sa ne asiguram ca ii ajutam in continuare.
           </p>
-          <ButtonPrimary to="https://www.paypal.com/donate/?hosted_button_id=BM4MVCWJWRLEC&fbclid=IwAR3QftDMpAd1Xyaqw4XrWzwPB_4UYE9eXOleu_Go_45veaZwrCsADQQq0hg">Doneaza</ButtonPrimary>
+          <ButtonPrimary to="https://sinca.shopia.ro/#produs_27159">Doneaza</ButtonPrimary>
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">

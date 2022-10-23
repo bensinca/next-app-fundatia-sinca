@@ -11,28 +11,19 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Autonom Romania",
-      image: "",
-      city: "",
-      country: "",
-      rating: "4.5",
+      image: "/assets/autonom.png",
       testimoni:
         "În vremuri grele, pline de nesiguranță, ne bucurăm că încă putem găsi persoane care ne susțin si ne ajută. @autonom.romania vă mulțumim pentru sprijinul pe care îl oferiți zilnic.",
     },
     {
       name: "Autonom Romania",
       image: "",
-      city: "",
-      country: "",
-      rating: "4.5",
       testimoni:
         "În vremuri grele, pline de nesiguranță, ne bucurăm că încă putem găsi persoane care ne susțin si ne ajută. @autonom.romania vă mulțumim pentru sprijinul pe care îl oferiți zilnic.",
     },
     {
       name: "Autonom Romania",
       image: "",
-      city: "",
-      country: "",
-      rating: "4.5",
       testimoni:
         "În vremuri grele, pline de nesiguranță, ne bucurăm că încă putem găsi persoane care ne susțin si ne ajută. @autonom.romania vă mulțumim pentru sprijinul pe care îl oferiți zilnic.",
     }
@@ -103,14 +94,7 @@ const Testimoni = ({
                     <p className="text-lg text-black-600 capitalize">
                       {listTestimonis.name}
                     </p>
-                    {
-                      listTestimonis.city ? (
-                        <p className="text-sm text-black-500 capitalize">
-                        {listTestimonis.city},{listTestimonis.country}
-                      </p>
-                      ) : ( '' )
-                    } 
-             
+           
                   </div>
                 </div>
               </div>

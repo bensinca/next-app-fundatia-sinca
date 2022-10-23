@@ -14,7 +14,7 @@ const Feature = () => {
               src="/assets/about.jpg"
               alt="Fundatia Sinca"
               layout="responsive"
-              class="rounded-lg"
+              className="rounded-lg"
               quality={100}
               height={414}
               width={508}
